@@ -1,0 +1,12 @@
+D:\Programy Visual Studio\DatabaseApp\bin\Debug\DatabaseApp.exe.config
+D:\Programy Visual Studio\DatabaseApp\bin\Debug\DatabaseApp.exe
+D:\Programy Visual Studio\DatabaseApp\bin\Debug\DatabaseApp.pdb
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.csprojAssemblyReference.cache
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Properties.Resources.resources
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.csproj.GenerateResource.cache
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.csproj.CoreCompileInputs.cache
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.exe
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.pdb
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Rejestracja.resources
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.MainWindow.resources
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.UserMain.resources
