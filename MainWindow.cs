@@ -35,14 +35,15 @@ namespace DatabaseApp
                                                              Database=DatabaseApp;
                                                              Trusted_Connection=True;");
             cnn.Open();
+            //zlicz ilość wystąpień danego rekordu jeśli login i hasło są takie jak wpisał użytkownik
             String sql = "select count(*) from users where login ='"+login+"' and password ='"+haslo+"'";
             SqlCommand command = new SqlCommand(sql, cnn);
 
             int sqlIle = (int)command.ExecuteScalar();
 
-            if(sqlIle > 0)
+            if(sqlIle > 0)//umożliwienie zalogowania się jeśli ilość zliczonych rekordów jest większa od zera
             {
-                UserMain um = new UserMain(login);               
+                UserMain um = new UserMain(login);
                 um.Show();
                 logowanieInfoLBL.Text = "";
                 this.Visible = false;

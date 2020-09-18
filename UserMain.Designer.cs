@@ -34,6 +34,8 @@
             this.dodajPktBTN = new System.Windows.Forms.Button();
             this.loginBoxTB = new System.Windows.Forms.TextBox();
             this.dodatPktLBL = new System.Windows.Forms.Label();
+            this.jumperBTN = new System.Windows.Forms.Button();
+            this.dodgerBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // powitanieLBL
@@ -49,7 +51,7 @@
             // wylogujBTN
             // 
             this.wylogujBTN.BackColor = System.Drawing.Color.IndianRed;
-            this.wylogujBTN.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.wylogujBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.wylogujBTN.Location = new System.Drawing.Point(701, 378);
             this.wylogujBTN.Name = "wylogujBTN";
             this.wylogujBTN.Size = new System.Drawing.Size(87, 27);
@@ -61,7 +63,7 @@
             // offBTN
             // 
             this.offBTN.BackColor = System.Drawing.Color.IndianRed;
-            this.offBTN.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.offBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.offBTN.Location = new System.Drawing.Point(701, 411);
             this.offBTN.Name = "offBTN";
             this.offBTN.Size = new System.Drawing.Size(87, 27);
@@ -101,12 +103,38 @@
             this.dodatPktLBL.TabIndex = 5;
             this.dodatPktLBL.Text = "Zdobądź dodatkowe punkty!\r\n(Tylko w odpowiednich porach)";
             // 
+            // jumperBTN
+            // 
+            this.jumperBTN.BackColor = System.Drawing.Color.YellowGreen;
+            this.jumperBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.jumperBTN.Location = new System.Drawing.Point(346, 182);
+            this.jumperBTN.Name = "jumperBTN";
+            this.jumperBTN.Size = new System.Drawing.Size(87, 27);
+            this.jumperBTN.TabIndex = 6;
+            this.jumperBTN.Text = "Jumper";
+            this.jumperBTN.UseVisualStyleBackColor = false;
+            this.jumperBTN.Click += new System.EventHandler(this.jumperBTN_Click);
+            // 
+            // dodgerBTN
+            // 
+            this.dodgerBTN.BackColor = System.Drawing.Color.YellowGreen;
+            this.dodgerBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dodgerBTN.Location = new System.Drawing.Point(346, 215);
+            this.dodgerBTN.Name = "dodgerBTN";
+            this.dodgerBTN.Size = new System.Drawing.Size(87, 27);
+            this.dodgerBTN.TabIndex = 7;
+            this.dodgerBTN.Text = "Dodger";
+            this.dodgerBTN.UseVisualStyleBackColor = false;
+            this.dodgerBTN.Click += new System.EventHandler(this.dodgerBTN_Click);
+            // 
             // UserMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dodgerBTN);
+            this.Controls.Add(this.jumperBTN);
             this.Controls.Add(this.dodatPktLBL);
             this.Controls.Add(this.loginBoxTB);
             this.Controls.Add(this.dodajPktBTN);
@@ -128,5 +156,7 @@
         private System.Windows.Forms.Button dodajPktBTN;
         private System.Windows.Forms.TextBox loginBoxTB;
         private System.Windows.Forms.Label dodatPktLBL;
+        private System.Windows.Forms.Button jumperBTN;
+        private System.Windows.Forms.Button dodgerBTN;
     }
 }

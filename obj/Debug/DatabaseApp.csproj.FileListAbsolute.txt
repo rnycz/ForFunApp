@@ -10,3 +10,5 @@ D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.pdb
 D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Rejestracja.resources
 D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.MainWindow.resources
 D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.UserMain.resources
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Jumper.resources
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Dodger.resources

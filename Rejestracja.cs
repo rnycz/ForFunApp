@@ -20,6 +20,7 @@ namespace DatabaseApp
             hasloTB.PasswordChar = '*';
         }
 
+        //walidator adresu e-mail
         bool ValidEmail(string email)
         {
             try
@@ -40,15 +41,18 @@ namespace DatabaseApp
 
             SqlConnection cnn = new SqlConnection(@"Server=DESKTOP-2I2V4OF;
                                                              Database=DatabaseApp;
-                                                             Trusted_Connection=True;");
+                                                             Trusted_Connection=True;");//połączenie z bazą danych
             cnn.Open();
             String sql = "Insert into users (login,email,password) values (@param1,@param2,@param3)";
             String sqlLogin = "select count(*) from users where login='" + loginTB.Text + "'";
+            String sqlPunkty = "update users set score = @setScore where login = '" + loginTB.Text + "'";
             SqlCommand command = new SqlCommand(sql, cnn);
             SqlCommand commandLogin = new SqlCommand(sqlLogin, cnn);
 
+
             int ileLogin = (int)commandLogin.ExecuteScalar();
 
+            //poniżej walidacja poszczególnych danych do wpisania podczas rejestracji
             if (loginTB.TextLength < 4)
             {
                 loginInfoLBL.Text = "Za krótki login";
