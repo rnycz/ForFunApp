@@ -116,5 +116,15 @@ namespace DatabaseApp
             d.Show();
             this.Close();
         }
+
+        //włącz grę shooter
+        private void shooterBTN_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Zestrzel jak najwięcej potworów, tak aby nie zdążyły cię dopaść. \n" +
+                "Naciśnij OK, aby rozpocząć grę.", "Zasady");
+            Shooter s = new Shooter(loginBoxTB.Text);
+            s.Show();
+            this.Close();
+        }
     }
 }

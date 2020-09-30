@@ -12,3 +12,8 @@ D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.MainWindow.resources
 D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.UserMain.resources
 D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Jumper.resources
 D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Dodger.resources
+D:\Programy Visual Studio\DatabaseApp\bin\Debug\ScottPlot.dll
+D:\Programy Visual Studio\DatabaseApp\bin\Debug\ScottPlot.WinForms.dll
+D:\Programy Visual Studio\DatabaseApp\bin\Debug\System.Drawing.Common.dll
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.csproj.CopyComplete
+D:\Programy Visual Studio\DatabaseApp\obj\Debug\DatabaseApp.Shooter.resources

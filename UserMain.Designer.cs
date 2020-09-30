@@ -36,6 +36,7 @@
             this.dodatPktLBL = new System.Windows.Forms.Label();
             this.jumperBTN = new System.Windows.Forms.Button();
             this.dodgerBTN = new System.Windows.Forms.Button();
+            this.shooterBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // powitanieLBL
@@ -107,7 +108,7 @@
             // 
             this.jumperBTN.BackColor = System.Drawing.Color.YellowGreen;
             this.jumperBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.jumperBTN.Location = new System.Drawing.Point(346, 182);
+            this.jumperBTN.Location = new System.Drawing.Point(347, 157);
             this.jumperBTN.Name = "jumperBTN";
             this.jumperBTN.Size = new System.Drawing.Size(87, 27);
             this.jumperBTN.TabIndex = 6;
@@ -119,7 +120,7 @@
             // 
             this.dodgerBTN.BackColor = System.Drawing.Color.YellowGreen;
             this.dodgerBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dodgerBTN.Location = new System.Drawing.Point(346, 215);
+            this.dodgerBTN.Location = new System.Drawing.Point(347, 190);
             this.dodgerBTN.Name = "dodgerBTN";
             this.dodgerBTN.Size = new System.Drawing.Size(87, 27);
             this.dodgerBTN.TabIndex = 7;
@@ -127,12 +128,25 @@
             this.dodgerBTN.UseVisualStyleBackColor = false;
             this.dodgerBTN.Click += new System.EventHandler(this.dodgerBTN_Click);
             // 
+            // shooterBTN
+            // 
+            this.shooterBTN.BackColor = System.Drawing.Color.YellowGreen;
+            this.shooterBTN.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.shooterBTN.Location = new System.Drawing.Point(347, 223);
+            this.shooterBTN.Name = "shooterBTN";
+            this.shooterBTN.Size = new System.Drawing.Size(87, 27);
+            this.shooterBTN.TabIndex = 8;
+            this.shooterBTN.Text = "Shooter";
+            this.shooterBTN.UseVisualStyleBackColor = false;
+            this.shooterBTN.Click += new System.EventHandler(this.shooterBTN_Click);
+            // 
             // UserMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.shooterBTN);
             this.Controls.Add(this.dodgerBTN);
             this.Controls.Add(this.jumperBTN);
             this.Controls.Add(this.dodatPktLBL);
@@ -158,5 +172,6 @@
         private System.Windows.Forms.Label dodatPktLBL;
         private System.Windows.Forms.Button jumperBTN;
         private System.Windows.Forms.Button dodgerBTN;
+        private System.Windows.Forms.Button shooterBTN;
     }
 }
