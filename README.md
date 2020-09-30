@@ -9,8 +9,10 @@ When your login process is sucessfull then you are in your profile.<br />
 ![](images/3.PNG) <br />
 Here you can see how many points you already have and your email address. <br />
 You can choose the game you want to play and add bonus points.<br />
-At the moment there are two options: Jumper and Dodger.<br />
+At the moment there are three options: Jumper, Dodger and Shooter.<br />
 In Jumper, you need to go up as quickly as possible.<br />
 In Dodger you have to dodge objects that fall from above.<br />
+In Shooter you have to shoot the monsters that are coming to you and score points.<br />
 ![](images/4.PNG) <br />
-![](images/5.PNG) 
+![](images/5.PNG) <br />
+![](images/6.PNG)
